@@ -21,7 +21,7 @@ My notes regarding this project will go into this readme
     - Next we'll need to configure the options by adding:
     `public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }` into the ApllicationDbContext : DbContext class, inside the brackets of course..
 
-3. As work around to the shoddy instruction add the following code block to Program.cs
+3. As work around add the following code block to Program.cs
 
     `using AddressBookMVC.Data;`
     `using Microsoft.EntityFrameworkCore;`
